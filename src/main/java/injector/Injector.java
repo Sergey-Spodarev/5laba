@@ -10,7 +10,7 @@ public class Injector {
         appProperties = new Properties();
         try (var inputStream = getClass().getClassLoader().getResourceAsStream(propertyFileName)) {
             if (inputStream == null) {
-                throw new RuntimeException("Файл " + propertyFileName + " не найден в ресурсах!");
+                throw new RuntimeException("Файл " + propertyFileName + " не найден в resources!");
             }
             appProperties.load(inputStream);
         } catch (Exception e) {
