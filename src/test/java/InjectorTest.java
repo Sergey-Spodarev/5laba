@@ -1,6 +1,7 @@
 import injector.Injector;
-import org.junit.Test;
 import somepackage.SomeBean;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 public class InjectorTest {
     @Test
