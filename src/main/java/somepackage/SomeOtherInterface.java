@@ -1,2 +1,5 @@
-package somepackage;public class SomeOtherInterface {
+package somepackage;
+
+public interface SomeOtherInterface {
+    void doSomeOther();
 }

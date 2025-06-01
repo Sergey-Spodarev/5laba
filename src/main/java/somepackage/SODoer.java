@@ -1,7 +1,7 @@
 package somepackage;
 
-public class SomeOtherImplementation implements SomeOtherInterface {
-    public void executeSomeOtherAction() {
+public class SODoer implements SomeOtherInterface {
+    public void doSomeOther() {
         System.out.println("C");
     }
 }

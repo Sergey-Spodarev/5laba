@@ -1,2 +1,7 @@
-package injector;public class AutoInjectable {
-}
+package injector;
+
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface AutoInjectable {}
